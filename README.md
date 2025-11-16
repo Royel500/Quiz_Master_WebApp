@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## 🌟 **Long Description for Your Quiz Website**
+Live Link = https://quiz-master-orcin-rho.vercel.app/
 
-First, run the development server:
+This website is a fully interactive, round-based quiz platform designed to deliver a smooth, exciting, and intelligent learning experience. The system begins with a beautiful registration popup where users enter their basic details before starting the challenge. Once registered, users move through the quiz following a strict rule: **each round contains the same number of questions as the round number** (Round 1 = 1 question, Round 2 = 2 questions, Round 10 = 10 questions, etc.).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Every question features **4 options**, advanced **SweetAlert popups**, animated feedback, and an elegant UI crafted for maximum engagement. The quiz system avoids repeating questions by using a **smart no-replacement algorithm**, ensuring every question appears only once in the entire journey.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The user receives instant feedback on correct and wrong answers, complete with stylish popups and smooth transitions. Finishing a round opens a detailed summary showing progress, total correct answers, round achievements, and options to continue, retry, or return home.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The platform also includes a secure and dedicated **Admin Panel**, allowing administrators to add, edit, or delete questions easily. All user registrations can be stored through the backend API, making it ready for analytics, rankings, or leaderboard features in the future.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Designed with modern technologies like **Next.js, Tailwind CSS, and SweetAlert2**, this website delivers:
 
-## Learn More
+### ✔ Clean and modern UI
 
-To learn more about Next.js, take a look at the following resources:
+### ✔ Smooth user experience with controlled difficulty
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### ✔ Strict round-based structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### ✔ No repeated questions
 
-## Deploy on Vercel
+### ✔ Secure user data submission
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ✔ Fully manageable question database
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Overall, this quiz website combines performance, design, and logic to create a professional, addictive, and high-quality quiz experience suitable for competitions, schools, coaching centers, and entertainment.
+
